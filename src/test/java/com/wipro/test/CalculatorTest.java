@@ -28,4 +28,8 @@ public class CalculatorTest {
 		assertEquals(10,Calculator.division(50, 5));
 	}
 
+	@Test
+	public void testModulus() {
+		assertEquals(0,Calculator.modulus(50, 5));
+	}
 }
