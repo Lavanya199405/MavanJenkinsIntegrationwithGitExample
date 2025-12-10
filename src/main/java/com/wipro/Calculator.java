@@ -8,6 +8,7 @@ public class Calculator {
 //	}
 	
 	public static int addition(int num1, int num2) {
+		System.out.println("addition method");
 		return num1+num2;
 	}
 	
